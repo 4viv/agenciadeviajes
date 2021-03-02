@@ -1,0 +1,29 @@
+extends ../layout/index
+block slider
+    .slider
+        h1 Rio de Janeiro
+        em Aventura
+
+block contenido
+    main.container.mt-5 
+        h2.text-center.mb-5 Sobre nosotros 
+        .row.mb-5 
+            .col-md-6 
+                p tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                p tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always or non-characteristic words etc.
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", class="img-fluid", alt="imagen nosotros")
+        h2.text-center.mb-5 Proximos viajes
+        include ../layout/partials/viajes
+    .descuento 
+        .container
+            .row 
+                .col-md-6
+                    .contenido
+                        h3 5% de Descuento 
+                        p.titulo Viaje a Canada
+                        p.fecha 20 de Marzo 2021 - 28 de Marzo de 2021
+                        p.precio $2,500 USD
+    .container 
+        h2.text-center.my-5 Testimoniales
+        include ../layout/partials/testimoniales

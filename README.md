@@ -2,8 +2,8 @@
 
 #### Ejemplo de sitio web dinamico para agencia de viajes
 
-### Pagina creada con NodeJS y Express
+### Pagina creada con NodeJS, Express y MySql
 
-### Deployment en heroku
+### Deployment en Heroku
 
- https://avivagencia.herokuapp.com/
+ [Ver pagina Agencia de viajes](https://avivagencia.herokuapp.com/)
